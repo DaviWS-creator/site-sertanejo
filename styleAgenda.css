@@ -1,0 +1,51 @@
+.agenda-container {
+    padding-top: 125px;
+}
+
+.agenda {
+
+    background: url(imagens/imageBMW.png) no-repeat center center fixed; 
+    background-size: cover;
+
+    min-height: 30vh;
+
+    padding-bottom: 75px;
+
+    color: #2449af;
+    /* color: var(--sixth-color); */
+
+
+}
+.pop-upAgenda {
+    background-color: #a5532daf;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.agenda-shows {
+    /* background-color: #c4765290; */
+    
+    padding-bottom: 100px;
+}
+
+.agenda-shows span{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.agenda-cabecalho {
+    gap: 20px;
+}
+
+.agenda-cabecalho span{
+    text-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.9);
+}
+
+.agenda-cabecalho [class^="col"]{
+    border-bottom: solid 2px var(--sixth-color);
+}

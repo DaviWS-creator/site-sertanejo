@@ -1,0 +1,152 @@
+/* BANNER */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner > .imagem {
+  display: flex;
+  flex-direction: row;
+}
+.banner img {
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+/*BANNER-INFROMAÇÕES*/
+
+.banner-informacoes {
+  flex: 1 1 250px;
+  justify-content: center;
+  align-items: center;
+  background-color: #492b2a;
+  color: #f2f2f2;
+}
+
+.texto {
+  padding: 30px;
+  top: 30px;
+}
+
+/*MAIN VIDEOS*/
+
+.reprodutor-video {
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*CARROSEL*/
+
+.carrosel {
+  display: flex;
+  width: 100%;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-carrosel {
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.botao-carrosel button {
+  background-color: #8b3e0a;
+  border: #8b3e0a;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.botao-carrosel button:hover {
+  background-color: var(--second-color);
+  cursor: pointer;
+}
+
+/* AGENDA  */
+.agenda{
+  justify-content: center;
+  align-items: center;
+}
+
+.agenda h2{
+  text-shadow:  5px 5px 7px rgba(0, 0, 0, 0.5);
+  color: var(--fourth-color);
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.agenda-titulos{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: var(--fourth-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.agenda-itens{
+  width: 910px;
+  text-align: center;
+  color: var(--fourth-color);
+  font-size: 18px;
+  margin: 20px ;
+  gap: 20px;
+}
+
+.agenda-itens a{
+  text-decoration: none;
+  color: var(--fourth-color);
+}
+
+.agenda-itens .item-lista{
+  width: 500px;
+  margin: 0 10px; 
+  /* border: var(--fourth-color) 1px solid; */
+}
+
+.agenda-titulos .item-lista{
+  width: 500px;
+  margin: 0 10px; 
+  /* flex: 1 1 1000px; */
+  border-bottom: #4d7c9f 2px solid;
+}
+
+.agenda-itens .item-lista:hover{
+  color: var(--sixth-color);
+  cursor: pointer;
+}
+
+.agenda-itens .item-lista a:hover{
+  color: var(--sixth-color);
+  cursor: pointer;
+}
+.itens{
+  gap: 10px;
+  border-bottom: #4d7c9f81 1px solid;
+}
+
+.botao-agenda{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #8b3e0a;
+  border-radius: 50px;
+}
+
+.botao-agenda a{
+  text-decoration: none;
+  color: #f2f2f2;
+  font-weight: bold;
+  padding: 10px;
+}
